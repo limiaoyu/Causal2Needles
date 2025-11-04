@@ -147,8 +147,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body has-text-centered">
-      <h1 class="title">Abstract</h1>
-      <h2 class="subtitle">Properly evaluating the ability of Video-Language Models (VLMs) to understand long videos remains a challenge. We propose a long-context video understanding benchmark, Causal2Needles, that assesses two crucial abilities insufficiently addressed by existing benchmarks: (1) extracting information from two separate locations (two needles) in a long video and understanding them jointly, and (2) modeling the world in terms of cause and effect in human behaviors. Causal2Needles evaluates these abilities using noncausal one-needle, causal one-needle, and causal two-needle questions. The most complex question type, causal two-needle questions, require extracting information from both the cause and effect events from a long video and the associated narration text. To prevent textual bias, we introduce two complementary question formats: locating the video clip containing the answer, and verbal description of a visual detail from that video clip. Our experiments reveal that models excelling on existing benchmarks struggle with causal 2-needle questions, and the model performance is negatively correlated with the distance between the two needles. These findings highlight critical limitations in current VLMs.</h2>
+      <h2 class="subtitle">An example:</h2>
       <h2><strong>Input Video:</strong></h2>
       <video poster="" id="bannerVideo" autoplay controls muted loop height="100%">
         <!-- Your video here -->
@@ -174,7 +173,6 @@ Clark is also declared dead, and Bruce Wayne, Lois Lane, Martha Kent, and Diana 
   <br>
   <span style="color: green; font-weight: bold;">Scene 2</span>
 </p>
-      <hr style="width: 60px; margin: 0 auto 1em; border: 1px solid #ccc;">
       <h2><strong>1-Needle Question (Causal):</strong></h2>
       <p>
   <span style="color: black;">
@@ -183,7 +181,6 @@ Clark is also declared dead, and Bruce Wayne, Lois Lane, Martha Kent, and Diana 
   <br>
   <span style="color: green; font-weight: bold;">Scene 2</span>
 </p>
-      <hr style="width: 60px; margin: 0 auto 1em; border: 1px solid #ccc;">
        <h2><strong>2-Needle Question (Visual Grounding):</strong></h2>
       <p>
   <span style="color: black;">
@@ -192,7 +189,6 @@ Clark is also declared dead, and Bruce Wayne, Lois Lane, Martha Kent, and Diana 
   <br>
   <span style="color: green; font-weight: bold;">Scene 5 for Part 1; Scene 2 for Part 2</span>
 </p>
-      <hr style="width: 60px; margin: 0 auto 1em; border: 1px solid #ccc;">
       <h2><strong>2-Needle Question (Image Description):</strong></h2>
       <p><span style="color: black;">: (Part1) What tragedy was commemorated by the memorial service in Metropolis? (Part2) When the tragedy that causes the memorial service occurs, what color were the energy blasts emanating from thecreature? Choose the correct option.</p>
       
